@@ -20,7 +20,7 @@ public class WordCRUD implements ICRUD{
 	ArrayList<Word> list;
 	Scanner sc;
 	final String fname = "Dictonary.txt";
-	Connection conn;
+	Connection conn; //
 	
 	// 생성자 : Word Type의 ArrayList 생성되게 끔 한다.
 	WordCRUD(Scanner sc) {
