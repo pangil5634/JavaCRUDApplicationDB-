@@ -28,6 +28,7 @@ public class WordCRUD implements ICRUD{
 		this.sc = sc;
 		conn = DBConnection.getConnection(); // 따로 인스턴스화 하지 않고 사용 가능 
 	}
+	//
 	
 	public void LoadData() {
 		
