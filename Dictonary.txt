@@ -1,0 +1,14 @@
+3|Persimmon|감 	
+1|Raisin|건포도
+3|Guarana|과라나
+1|Guava|구아바 
+3|Mandarin|귤 
+1|Date|대추
+2|Durian|두리언 
+2|Strawberry|딸기
+1|Lime|라임 
+3|Rambutan|람부턴 
+1|Lemon|레몬
+1|Lychee|리치 
+1|Mango|망고
+1| kiwi|키위
