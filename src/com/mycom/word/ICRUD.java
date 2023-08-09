@@ -2,9 +2,7 @@ package com.mycom.word;
 
 public interface ICRUD {
 
-	public Object add();
-	public int update(Object obj);
-	public int delete(Object obj);
-	public void selectOne(int id);
-	
+	public int add(Word one); // 데이터를 추가하는 메소드
+	public int update(Word one); // 데이터를 수정하는 메소드
+	public int delete(Word one); // 데이터를 삭제하는 메소드
 }

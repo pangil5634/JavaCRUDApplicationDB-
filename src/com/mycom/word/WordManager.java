@@ -21,8 +21,8 @@ public class WordManager {
 	
 	// 전체적인 프로그램을 실행하는 main 구문
 	public void start() throws FileNotFoundException, IOException {
-//		wordCRUD.loadFile();
-		wordCRUD.LoadData(); // DB 파일에 있는 데이터 로드하는 구
+
+		wordCRUD.LoadData(""); // DB 파일에 있는 데이터 로드하는 메소드 
 		
 		while(true) {
 			int menu = selectMenu(); // 사용자로부터 메뉴를 입력 받아 저장하는 변수
@@ -30,8 +30,7 @@ public class WordManager {
 			if(menu == 0) {
 				break;
 			} else if (menu == 1) {
-				// list
-				wordCRUD.listAll();
+				wordCRUD.listAll("");
 			} else if (menu == 2) {
 				wordCRUD.searchLevel();
 			} else if (menu == 3) {
@@ -47,11 +46,8 @@ public class WordManager {
 				wordCRUD.deleteItem();
 			} else if (menu == 7) {
 				// file save
-				wordCRUD.saveFile();
-				
+				wordCRUD.saveFile();		
 			}
-		
-		
 		}
 	}
 	

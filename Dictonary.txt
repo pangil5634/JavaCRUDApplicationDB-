@@ -1,14 +1,20 @@
-3|Persimmon|감 	
+3|Persimmon|감자탕
 1|Raisin|건포도
 3|Guarana|과라나
-1|Guava|구아바 
-3|Mandarin|귤 
+1|Guava|구아바
+3|Mandarin|귤
 1|Date|대추
-2|Durian|두리언 
+2|Durian|두리언
 2|Strawberry|딸기
-1|Lime|라임 
-3|Rambutan|람부턴 
+1|Lime|라임
+3|Rambutan|람부턴
 1|Lemon|레몬
-1|Lychee|리치 
+1|Lychee|리치
 1|Mango|망고
-1| kiwi|키위
+1|kiwi|키위
+2|coffee|커피
+2|cup|컵
+1| grape|포도
+1| phone|핸드폰
+1| keyboard|키보드
+1| glass|유리
