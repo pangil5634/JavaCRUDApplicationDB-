@@ -6,17 +6,27 @@ import java.util.Scanner;
 
 public class WordManager {
 	
+	// 전역 변수 선언 
 	Scanner sc = new Scanner(System.in);
-	WordCRUD wordCRUD;
+	WordCRUD wordCRUD; // wordCRUD에 대한 메소드를 담고 있는 클래스 선
 	
+	
+	
+	// 생성자 
 	WordManager(){
-		wordCRUD = new WordCRUD(sc);
+		wordCRUD = new WordCRUD(sc); // wordCRUD class 인스턴스화
 	}
+	
+	
+	
+	// 전체적인 프로그램을 실행하는 main 구문
 	public void start() throws FileNotFoundException, IOException {
 //		wordCRUD.loadFile();
-		wordCRUD.LoadData();
+		wordCRUD.LoadData(); // DB 파일에 있는 데이터 로드하는 구
+		
 		while(true) {
-			int menu = selectMenu();
+			int menu = selectMenu(); // 사용자로부터 메뉴를 입력 받아 저장하는 변수
+			
 			if(menu == 0) {
 				break;
 			} else if (menu == 1) {
@@ -45,6 +55,9 @@ public class WordManager {
 		}
 	}
 	
+	
+	
+	// 사용자로부터 메뉴를 선택받아 리턴하는 메소드
 	public int selectMenu() {
 		System.out.print("*** 영단어 마스터 ***\n"
 				+ "**********************\n"
