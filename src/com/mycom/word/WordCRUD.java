@@ -43,7 +43,6 @@ public class WordCRUD implements ICRUD{
 	
 	
 	
-	
 	// 날짜를 Return 해주는 메소드
 	public String getCurrentDate() {
 		LocalDate now = LocalDate.now();
